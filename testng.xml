@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/anduser/Desktop/myProject">
+        <parameter name="db" value=" SQL"></parameter>
+        <groups>
+            <run>
+                <include name="regressTest"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="framework.test.Test1">
+            </class>
+            <class name="framework.test.Test2">
+            </class>
+        </classes>
+    </test>
+</suite>
