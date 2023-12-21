@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All tests run">
+
+    <suite-files>
+        <suite-file path="suites/simpleTests.xml"/>
+        <suite-file path="suites/windowHandleTests.xml"/>
+        <suite-file path="suites/loginTests.xml"/>
+        <suite-file path="suites/carTests.xml"/>
+    </suite-files>
+
+</suite>

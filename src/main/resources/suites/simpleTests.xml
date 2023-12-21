@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Set of simple tests">
+
+    <test name="Simple Test">
+        <classes>
+            <class name="simpleTests.SimpleTest"/>
+        </classes>
+    </test>
+
+    <test name="ListenerTest Test">
+        <classes>
+            <class name="simpleTests.ListenerTest"/>
+        </classes>
+    </test>
+
+    <test name="IframesHandlingTest Test">
+        <classes>
+            <class name="simpleTests.IframesHandlingTest"/>
+        </classes>
+    </test>
+
+</suite>
