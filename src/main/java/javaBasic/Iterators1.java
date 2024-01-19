@@ -19,12 +19,12 @@ public class Iterators1 {
         }
 
         ArrayList<String> cities = new ArrayList<String>();
-        states.add("Kiev");
-        states.add("Odessa");
-        states.add("Chernihiv");
-        states.add("Lviv");
+        cities.add("Kiev");
+        cities.add("Odessa");
+        cities.add("Chernihiv");
+        cities.add("Lviv");
 
-        ListIterator<String> listIter = states.listIterator();
+        ListIterator<String> listIter = cities.listIterator();
 
         while(listIter.hasNext()){
 
