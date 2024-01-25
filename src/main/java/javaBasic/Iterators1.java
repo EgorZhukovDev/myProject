@@ -11,6 +11,7 @@ public class Iterators1 {
         states.add("France");
         states.add("Italy");
         states.add("Spain");
+        states.set(1, "Mexico"); // заменили 2й элемен с France на Mexico
 
         Iterator<String> iter = states.iterator();
         while(iter.hasNext()){
@@ -30,9 +31,9 @@ public class Iterators1 {
 
             System.out.println(listIter.next());
         }
-        // сейчас текущий элемент - Испания
+        // сейчас текущий элемент - Lviv
         // изменим значение этого элемента
-        listIter.set("Португалия");
+        listIter.set("Mena");
         // пройдемся по элементам в обратном порядке
         while(listIter.hasPrevious()){
 
