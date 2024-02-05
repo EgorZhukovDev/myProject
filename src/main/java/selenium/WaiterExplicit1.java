@@ -24,7 +24,9 @@ public class WaiterExplicit1 {
         try {
             driver.get("http://en.wikipedia.org");
 
-            new WebDriverWait(driver, Duration.ofSeconds(3)).until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@id='Welcome_to_Wikipedia']/a"))).click();
+            new WebDriverWait(driver, Duration.ofSeconds(3))
+                    .until(ExpectedConditions.elementToBeClickable(By.xpath("//span[@id='Welcome_to_Wikipedia']/a")))
+                    .click();
 
         } catch (Exception e) {
             e.printStackTrace();
