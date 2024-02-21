@@ -28,7 +28,7 @@ public class WaiterAll {
             // либо будет слишком избыточным и увеличит время выполнения теста.
 
             List <WebElement> elements = driver.findElements(By.xpath("//div[@class='data-container']/ul/li"));
-            List <WebElement> pages = driver.findElements(By.xpath("//div[@class='paginationjs-pages']/ul/li"));
+            List <WebElement> pages = driver.findElements(By.xpath("//div[@class='paginationjs-cucumber.pages']/ul/li"));
 
             String text = elements.get(5).getText();
             System.out.println(text);

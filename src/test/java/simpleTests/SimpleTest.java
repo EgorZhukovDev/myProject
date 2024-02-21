@@ -1,6 +1,6 @@
 package simpleTests;
 
-import pages.retry.Retry;
+import allPages.retry.Retry;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
